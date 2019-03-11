@@ -45,6 +45,12 @@ module.exports = {
         use: nodeModule('babel-loader'),
       },
       {
+        test: /\.vue$/,
+        include: resolve('../src'),
+        exclude: /(node_modules|bower_components|dist)/,
+        use: nodeModule('vue-loader'),
+      },
+      {
         test: /\.s?css$/,
         include: resolve('../src'),
         exclude: /(node_modules|bower_components|dist)/,
