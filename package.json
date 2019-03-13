@@ -60,8 +60,7 @@
   "peerDependencies": {
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
-    "vue": "^2.6.8",
-    "vue-bacon-ipsum": "^0.1.1"
+    "vue": "^2.6.8"
   },
   "optionalDependencies": {
     "fsevents": "^1.1.3"

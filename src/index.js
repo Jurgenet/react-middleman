@@ -1,3 +1,3 @@
 import Middleman from 'components/Middleman'
 
-export { Middleman }
+export default Middleman
